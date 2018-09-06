@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = 'برفكس بوتك'
+const prefix = '!'
 
 client.on('ready', () => {
   client.user.setActivity("$help | $inv ",{type: 'PLAYING'})
-client.user.setGame(`Alpha Codes `,"http://twitch.tv/Alpha Codes")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -50,8 +49,6 @@ const fs = require('fs');
 const gif = require("gif-search");
 
 
-const prefix = "+";
-/////////////////////////
 ////////////////////////
 
 client.on('message', async msg =>{
