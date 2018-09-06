@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefix = '!'
 
 client.on('ready', () => {
-  client.user.setActivity("$help | $inv ",{type: 'PLAYING'})
+  client.user.setActivity("!help |by looz ",{type: 'PLAYING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
