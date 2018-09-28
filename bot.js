@@ -2,10 +2,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '2'
 
+
+
 client.on('ready', () => {
-    client.user.setActivity(" 2play / by LooZ ",{type: 'PLAYING'});
+    client.user.setActivity("2play / by LooZ",{type: 'PLAYING'});
 
 });
+
 
 
 const Util = require('discord.js');
