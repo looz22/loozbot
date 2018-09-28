@@ -2,18 +2,10 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '2'
 
-
 client.on('ready', () => {
-   console.log(----------------);
-      console.log(Desert Bot- Script By : tx1 music 2#8091 );
-        console.log(----------------);
-      console.log(ON ${client.guilds.size} Servers '     Script By : tx1 music 2#8091  ' );
-    console.log(----------------);
-  console.log(Logged in as ${client.user.tag}!);
-client.user.setGame(Tx1 Network.,"http://twitch.tv/S-F%22)
-client.user.setStatus("dnd")
-});
+    client.user.setActivity(" 2play / by LooZ ",{type: 'PLAYING'});
 
+});
 
 
 const Util = require('discord.js');
